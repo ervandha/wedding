@@ -1,15 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  padding-top: 10px;
+  width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 .menu {
-  
+  background: #093;
 }
 .menu ul {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 0;
   list-style: none;
-  width: 500px; /* whatever width you want can be 100% */
+  text-align: center;
 }
-    
-.menu ul > li {
+.menu ul li {
   display: inline-block;
-  padding: 20px;
+}
+.menu ul li a {
+  display: block;
+  padding: 10px;
+  color: #CC0;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  background: #C30;
+  color: #FFF;
 }
